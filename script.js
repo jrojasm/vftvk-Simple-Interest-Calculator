@@ -8,7 +8,7 @@ function compute()
     document.getElementById("result").innerHTML="If you deposit "+principal+",\<br\>at an interest rate of "+rate+"%\<br\>You will recive an amount of "+interest+"\<br\>in the year "+year+"</br>"
 }
 function updateRate() {
-        var rateval = ocument.getElementById("rate").value;
+        var rateval = document.getElementById("rate").value;
         document.getElementById('rate_val').innerHTML=val+"%";
 
 }
